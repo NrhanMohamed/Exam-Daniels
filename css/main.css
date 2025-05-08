@@ -1,0 +1,87 @@
+*{
+    font-family:  "Montserrat", sans-serif;
+}
+.clear-fix{
+    clear: both;
+}
+/* header */
+header{
+    background-image: url("../imgs/bg.jpg") ;
+    background-size: cover;
+    background-position: center;
+}
+header .layer{
+    background-color: rgba(8, 8, 8 ,0.7);
+
+}
+header .layer h1{
+    font-family:  "Montserrat", sans-serif ;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+header .layer h2{
+    font-family:  "Montserrat", sans-serif;
+    font-size: 48px;
+    font-weight: 100;
+    margin-bottom: 50px;
+}
+/* header ICONS */
+header .layer .icons-link a{
+    background-color: rgba(4, 4, 4, 0.7);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+/* navbar */
+nav .collapse .nav-item .nav-link{
+    color: white;
+    font-size: 14px;
+    padding: 0 0;
+}
+.navbar-nav .nav-item{
+    margin-right: 5px;
+}
+/* about section */
+.about h3{
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+/* Services section */
+.custom-bg{
+    background-color: #F7F7F7;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    float: left;
+    margin-right: 80px;
+}
+.icon-services{
+    background-color:#F7F7F7;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+icon-services i{
+    font-size: 24px;
+    color: black;
+}
+.card{
+    border: none !important;
+}
+ /* portfolio section */
+/* #work .card{
+    width: 100px;
+
+} */
